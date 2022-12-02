@@ -17,4 +17,4 @@ for i in sumCalories[-3:]:
     top3+=i
 
 print(f"Elf with most calories {sumCalories[-1:]}")
-print(f"Top 3 elfs with most calories {top3}")
+print(f"Top 3 elves with most calories {top3}")
