@@ -1,3 +1,5 @@
+#day4
+
 file="day4.txt"
 def opendata(file):
     with open(file) as f:
@@ -34,12 +36,12 @@ def part2(data):
             counter+=1
         elif zero<three and zero >=two:
             counter+=1
+        
     print(counter)
 
 if __name__ == "__main__":
     data=opendata(file)
     part1(data)
     part2(data)
-
 #Answers 602 and 891
 
