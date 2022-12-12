@@ -35,8 +35,7 @@ def part2(data):
         elif one==two or one==three:
             counter+=1
         elif zero<three and zero >=two:
-            counter+=1
-        
+            counter+=1 
     print(counter)
 
 if __name__ == "__main__":
