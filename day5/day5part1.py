@@ -104,8 +104,6 @@ if __name__ == "__main__":
             
             fromstack=stacks[fromstacknumber]
             tostack=stacks[tostacknumber]
-            #print(fromstack)
-            #print(tostack)
             
             for i in range(moveamount):
                 top=fromstack.peek()
